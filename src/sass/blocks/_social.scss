@@ -1,0 +1,18 @@
+.social{    
+    &__link{
+        font-size: 24px;
+        margin: 0 5px;
+        color: #d0d0d0;       
+        &:hover{
+            color: $main-color;
+        }
+        &_min{
+            font-size: 20px;
+            margin: 0 2px;
+        }
+        &_max{
+            font-size: 30px;
+            color: #333333;            
+        }
+    }
+}

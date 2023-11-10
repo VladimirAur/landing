@@ -1,0 +1,24 @@
+.heading{
+    padding: 0 20px;
+    text-align: center;    
+    &__title{
+        font-family: $text-light;
+        font-size: 30px;
+        margin: 0;
+        color: $grey-color;
+        text-transform: uppercase;
+        &_min{
+            margin-bottom: 10px;
+            font-size: 20px;
+            text-transform: none; 
+        }           
+    }
+    &__subtitle{
+        font-size: 14px;
+        margin: 0;
+        &_min{
+            font-size: 12px;           
+        }
+    }
+
+}

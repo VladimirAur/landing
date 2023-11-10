@@ -1,0 +1,39 @@
+.blog{
+    padding: 25px 0 50px 0;       
+    background-color: #ebe7e7;
+    &__content{
+        position: relative;        
+        background-color: #ffffff;
+        border: 1px solid #cecbcb;
+    }
+    &__title{
+        font-size: 20px;
+        padding: 25px 25px 15px 25px;
+    }
+    &__text{
+        font-size: 14px;
+        padding:0 25px 25px 25px;
+        column-width: 48%;
+        column-count: 2;
+        column-gap: 4%;
+    }
+    &__date{
+        padding: 10px 25px;
+        font-size: 16px;
+        text-transform: uppercase;
+        background-color: #ebe7e7;
+        border-top: 1px solid #cecbcb;
+    }
+    &__search{
+        position: absolute;
+        top: -18px;
+        right: 20px;
+        padding: 8px;
+        font-size: 20px;
+        color: #ffffff;
+        border: 2px solid #cecbcb;
+        border-radius: 50%;
+        background-color: $main-color;
+        transform: scale(-1, 1)
+    }
+}

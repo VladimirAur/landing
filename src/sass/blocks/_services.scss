@@ -1,0 +1,90 @@
+.services{
+    background-color: #f6f6f6;
+    &__content{
+        margin: 25px 0;
+        padding: 25px 0;
+        background-color: #ebe7e7;
+    }
+    &__items{
+        display: flex;
+        justify-content: space-around;
+        margin: 90px 0 80px 0;        
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        opacity: 0.4; 
+        &:hover{
+            opacity: 1;            
+        }       
+        .icon-checkmark{
+            padding: 20px;
+            font-size: 70px;
+            color: #ffffff;
+            background-color: $main-color;
+            border-radius: 50%;
+        }
+        .icon-message{            
+            font-size: 140px;
+        }
+    }
+    &__icon{
+        font-size: 120px;
+        color: $main-color;
+        line-height: 0;
+    }
+    &__cards{
+        display: flex;
+        justify-content: start;
+        align-content: flex-start;
+        flex-flow: row wrap;
+        margin-top: 50px;
+    }
+    &__card{
+        flex-basis: 300px;
+        flex-grow: 1;
+        max-width: 99%;
+        margin: 10px;        
+        border: 2px solid #e7e4e4;    
+    }
+    &__img{
+        width: 100%;
+    }
+    
+    &__caption{
+        position: relative;
+        margin: 10px;
+    }
+    &__eye{       
+        position: absolute;
+        top: -37px;
+        right: 8px;
+        font-size: 25px;   
+        padding: 10px;
+        color: #ffffff;
+        background-color: $main-color;
+        border: 3px solid #ffffff;
+        border-radius: 50%;
+        
+    }
+    &__title{
+        color: #616161;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    &__subtitle{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
